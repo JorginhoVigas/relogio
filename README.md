@@ -1,18 +1,28 @@
-## Getting Started
+# Sistema de Relógios
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Sobre o Projeto
+Este projeto implementa uma hierarquia de classes para diferentes tipos de relógios, respeitando os formatos de hora do Brasil e dos Estados Unidos. A estrutura segue os princípios da Programação Orientada a Objetos (POO), garantindo encapsulamento e polimorfismo.
 
-## Folder Structure
+## Funcionalidades
+O sistema permite as seguintes operações:
 
-The workspace contains two folders by default, where:
+- **Relógio Brasileiro** ⏰🇧🇷
+  - Armazena e exibe o horário no formato **24 horas** (HH:MM:SS)
+  - Sincroniza o horário com outro relógio
+  
+- **Relógio Americano** ⏰🇺🇸
+  - Armazena e exibe o horário no formato **12 horas** (HH:MM:SS AM/PM)
+  - Converte automaticamente entre os formatos de 24h e 12h
+  - Sincroniza o horário com outro relógio
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- **Recursos Gerais** 🕰️
+  - Validação correta das horas, minutos e segundos
+  - Método para exibir o horário formatado
+  - Sincronização de horários entre diferentes implementações
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Tecnologias Utilizadas
+- **Java** ☕
+- **Programação Orientada a Objetos (POO)** 🔄
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Autor
+Desenvolvido por **Jorginho Vigas**.
